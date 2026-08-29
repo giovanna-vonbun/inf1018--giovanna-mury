@@ -9,8 +9,8 @@ unsigned char switch_byte(unsigned char x){
 }
 unsigned char rotate_left(unsigned char x, int n){
 
-    unsigned char b = (x & 0x0F) << n; 
-    unsigned char c = x >> 8-n;
+    unsigned char b = x << n; 
+    unsigned char c = (x >> 8-n)& 0x0F;
 
     return b | c; 
 
