@@ -34,5 +34,6 @@ int main (void)
     printf("Ox%02X, 1 -> 0x%02X\n", c, d);
     printf("Ox%02X, 2 -> 0x%02X\n", c, e);
     printf("Ox%02X, 7 -> 0x%02X\n", c, f);
+    
     return 0;
 }
